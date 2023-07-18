@@ -68,7 +68,9 @@
     align-items: center;
   }
   .we-gamer-description {
-    font-size: 18px;
+    font-size: 14px;
+    width: fit-content;
+    text-align: center;
   }
   .gamers-btn {
     margin-bottom: 50px;
@@ -79,6 +81,22 @@
   .we-gamer-last-line-bold {
     font-size: 24px;
   }
+  .we-gamer-content {
+    
+    margin-right: 0px;
+}
+  .overlay-box {
+    transition: none;
+    width: 203px;
+    height: 236px;
+
+  }
+  .online-game-section h1 {
+font-size: 28px;
+}
+.online-game-section p {
+font-size: 16px;
+}
 }
 @media screen and (min-width: 426px) and (max-width: 768px) {
   nav {
@@ -135,4 +153,8 @@
   .we-gamer-last-line-bold {
     font-size: 24px;
   }
+  .we-gamer-content {
+    
+    margin-right: 0px;
+}
 }
