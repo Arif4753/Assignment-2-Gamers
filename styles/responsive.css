@@ -1,0 +1,85 @@
+@media screen and (max-width: 425px) {
+  nav {
+    width: 90%;
+    margin: 0 auto;
+    padding: 27px 0;
+    flex-direction: column;
+  }
+  .nav-logo-section {
+    padding: 0px;
+  }
+  .nav-logo-section img{
+    width: 80px;
+    height: 40px;
+  }
+  .nav-menu-section > ul {
+    align-items: center;
+    flex-direction: column;
+  }
+  .follow-us-menu > ul li {
+    margin-bottom: 0px;
+  }
+  .nav-menu-section li {
+    margin-bottom: 30px;
+  }
+  .nav-menu-section {
+    flex-direction: column;
+  }
+ .banner-container{
+    grid-template-columns: 1fr;
+    padding: 10px;
+ }
+ .banner-content {
+    margin-top: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    order: 2;
+}
+ .banner-image-container img{
+    width: 80%;
+    object-fit: cover;
+    order: 1;
+    
+ }
+ .banner-title{
+font-size: 38px;
+}
+.banner-bold-title{
+font-size: 4.5rem;
+
+}
+.banner-content >ul li{
+font-size: 0.8rem;
+}
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  nav {
+    
+    padding: 27px 5px;
+  }
+  .banner-container{
+    padding: 27px 40px;
+    align-items: center;
+  }
+  .banner-title{
+    font-size: 28px;
+    }
+    .banner-bold-title{
+    font-size: 3.5rem;
+    
+    }
+    .banner-image-container img{
+        width: 100%;
+        object-fit: cover;}
+  .primary-btn{
+margin-right: 0;
+font-size: 10px;
+    
+}
+  .buttons{
+    display: flex;
+    gap: 10px;
+
+  }
+}

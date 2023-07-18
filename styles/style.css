@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+nav {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 27px 150px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.nav-logo-section {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 15px 24px;
+}
+.nav-logo-section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.nav-logo-section span {
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nav-menu-section > ul {
+  display: flex;
+}
+.nav-menu-section > ul li {
+  list-style: none;
+}
+.nav-menu-section > ul li a {
+  color: #3c354f;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  margin-right: 28px;
+}
+.nav-menu-section {
+  display: flex;
+  align-items: center;
+  padding: 15px 24px;
+}
+.follow-us-menu {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 15px 24px;
+}
+.follow-us-menu ul {
+  display: flex;
+  gap: 10px;
+}
+.follow-us-menu > ul li {
+  list-style: none;
+}
+.follow-us-menu > ul li a {
+  text-decoration: none;
+  color: #3c354f;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.fa-brands{
+    font-size: larger;
+}
+.banner-container{
+    width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  justify-content: space-between;
+  padding: 27px 150px;
+}
+.banner-title{
+    color: #0B0223;
+font-size: 48px;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+.banner-bold-title{
+font-size: 5.5rem;
+font-weight: 800;
+text-transform: uppercase;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-bottom: 24px;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+
+}
+.banner-content ul{
+    margin-right: 10px;
+}
+.banner-content >ul li{
+    margin-bottom: 17px;
+    list-style: none;
+    color: #534C64;
+font-size: 20px;
+font-weight: 500;
+text-transform: lowercase;
+}
+.banner-image-container img{
+    /* width: 90%; */
+    margin-left: 30px;
+}
+.primary-btn{
+    margin-top: 40px;
+    margin-right: 10px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    border-radius: 48px;
+    border: none;
+background-color: #FF42A5 ;
+}
+.sky{
+ background-color: #4EC5F7;
+}
