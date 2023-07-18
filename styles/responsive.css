@@ -97,6 +97,33 @@ font-size: 28px;
 .online-game-section p {
 font-size: 16px;
 }
+.instantly-container{
+    flex-direction: column;
+}
+.instantly-content h1 {
+  font-size: 28px;
+  }
+  .instantly-content{
+    width: 100%;
+  }
+  .instantly-image-container{
+    margin-right: -40px;
+  }
+  .play-games-container{
+    flex-direction: column;
+    padding: 27px 10px;
+    text-align: center;
+  }
+  .play-games-content h1{
+    text-align: center;
+    font-size: 28px;
+}
+.online-second-image img{
+    width: 30%;
+    position: absolute;
+    top: 75%;
+    right: 5%;
+}
 }
 @media screen and (min-width: 426px) and (max-width: 768px) {
   nav {
@@ -156,5 +183,32 @@ font-size: 16px;
   .we-gamer-content {
     
     margin-right: 0px;
+}
+.instantly-container{
+    flex-direction: column;
+}
+.instantly-content h1 {
+  font-size: 28px;
+  }
+  .instantly-content{
+    width: 100%;
+  }
+  .instantly-image-container{
+    margin-left: 100px;
+  }
+  .play-games-container{
+    flex-direction: column;
+    padding: 27px 10px;
+    text-align: center;
+  }
+  .play-games-content h1{
+    text-align: center;
+    font-size: 28px;
+}
+.online-second-image img{
+    width: 25%;
+    position: absolute;
+    top: 65%;
+    right: 8%;
 }
 }
